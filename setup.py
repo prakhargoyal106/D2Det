@@ -23,7 +23,7 @@ if PATCH != '':
 else:
     SHORT_VERSION = '{}.{}{}'.format(MAJOR, MINOR, SUFFIX)
 
-version_file = 'mmdet/version.py'
+version_file = 'content/D2Det/mmdet/version.py'
 
 
 def get_git_hash():
